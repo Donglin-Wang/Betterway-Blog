@@ -1,0 +1,25 @@
+.tagBox {
+	background-color: white;
+	opacity: 1;
+	height: 200px;
+	overflow: scroll;
+	position: relative;
+	width: 100%;
+	transition: all 0.4s ease-out;
+	z-index: 10;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.tag {
+	height: 30px;
+	border-radius: 20px;
+	float: left;
+	background-color: #dddddd;
+	font-size: 15px;
+	padding: 5px;
+	margin: 3px;
+	box-sizing: border-box;
+	transition: all 0.3s ease-out;
+	cursor: pointer;
+}
+.tag:hover {box-shadow: 0 3px 2px 0 rgba(0,0,0,0.2);}
