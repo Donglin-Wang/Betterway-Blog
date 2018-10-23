@@ -1,14 +1,16 @@
 <?php 
 
 // Define connection
-$db['db_host'] = "localhost";
-$db['db_user'] = "root";
-$db['db_pass'] = "";
-$db['db_name'] = "betterway";
-foreach($db as $key => $value){
-	define(strtoupper($key), $value);
-}
-$connection = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME);
+//$db['db_host'] = ;
+//$db['db_user'] = ;
+//$db['db_pass'] = ;
+//$db['db_name'] = ;
+//foreach($db as $key => $value){
+//	define(strtoupper($key), $value);
+//}
+//error_reporting(E_ALL);
+//ini_set('display_errors', 1);
+$connection = mysqli_connect("localhost", "donglin", "werwer456", "donglin_betterway");
 
 function confirmQuery($result) {
     global $connection;

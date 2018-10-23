@@ -62,7 +62,7 @@
 		</label>
 		<div class="col span_7_of_9 textCenter slideContent" id="s1">
 			<div class="col span_1_of_2 textCenter">
-				<img src="images/truck2.jpg" class="slideImage">
+				<img src="images/truck2.JPG" class="slideImage">
 			</div>
 			<div class="col span_1_of_2 textCenter">
 				<div class="bigTitle leftFadeIn">
